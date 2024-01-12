@@ -1,0 +1,24 @@
+/* CSS for tab content */
+.tabcontent {
+display: none;
+}
+
+/* CSS for proxy links in Zscaler Proxies */
+#zscaler ul li a {
+color: yellow; /* Yellow color for proxy links */
+}
+
+/* CSS for headers in tab content */
+.tabcontent h3 {
+font-size: 29px;
+}
+
+/* CSS for site made by JetFuel */
+#footer {
+position: fixed;
+bottom: 0;
+right: 0;
+padding: 10px;
+background-color: #f1f1f1;
+font-family: 'Arial', sans-serif;
+}

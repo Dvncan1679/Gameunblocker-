@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Game Unblocker</title>
+<style>
+/* CSS for tabs */
+.tab {
+overflow: hidden;
+background-color: #000000;
+}
+
+.tab button {
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-size: 17px;
+font-family: 'Holtwood One SC', 'Arial', sans-serif; /* Font updated with fallback */
+color: #FF1493; /* Pink color */
+text-decoration: underline;
+}
+
+.tab button:hover {
+background-color: #ddd;
+}
+
+.tab button.active {
+background-color: #ccc;
+}
+
+/* CSS for tab content */
+.tabcontent {
+display: none;
+background-color: grey; /* Added grey background color */
+color: yellow; /* Added yellow text color */
+}
+
+/* CSS for proxy links in Zscaler Proxies */
+#zscaler ul li a {
+color: yellow; /* Yellow color for proxy links */
+}
+
+/* CSS for headers in tab content */
+.tabcontent h3 {
+font-size: 29px;
+color: black; /* Added black color for headers */
+}
+
+/* CSS for site made by JetFuel */
+body {
+background-color: grey; /* Added grey background color for the entire site */
+}
+
+#footer {
+position: fixed;
+bottom: 0;
+right: 0;
+padding: 10px;
+background-color: #f1f1f1;
+font-family: 'Arial', sans-serif;
+}
+
+</style>
+</head>
+<body>
+<div class="tab">
+<button id="zscalerTab" class="tablinks" onclick="openTab(event, 'zscaler')">Zscaler Proxies</button>
+<button id="lightspeedTab" class="tablinks" onclick="openTab(event, 'lightspeed')">Lightspeed Proxies</button>
+<button id="gamesTab" class="tablinks" onclick="openTab(event, 'games')">Games</button>
+<button id="winexploitsTab" class="tablinks" onclick="openTab(event, 'winexploits')">Windows Exploits</button>
+<button id="chromeexploitsTab" class="tablinks" onclick="openTab(event, 'chromeexploits')">Chromebook Exploits</button>
+<button id="extrasTab" class="tablinks" onclick="openTab(event, 'extras')">Extras</button>
+<button id="dailynewsTab" class="tablinks active" onclick="openTab(event, 'dailynews')">Daily News</button>
+</div>
+
+<!-- Tab Content -->
+<div id="zscaler" class="tabcontent">
+<h3 style="color: black;">Zscaler Proxies</h3>
+<ul>
+<li><a href="https://oiuytrewq.pakasak.com/">Emerald</a></li>
+<li><a href="http://playontop.pakasak.com/">ShitFoil</a></li>
+<li><a href="https://mkjhgfdcvb.pakasak.com/">Somehow better than rammerhead and have better server but still ass</a></li>
+<li><a href="https://6yt6hk-3000.csb.app/">Veratile</a></li>
+<li><a href="https://lolllll.starscene.com/">RammerHead Slowest Edition</a></li>
+<li><a href="http://badastroid.pakasak.com/">A piece of shit space rock</a></li>
+<li><a href="https://geometry.precisewarehousing.com/">Shuttle but no more adds</a></li>
+</ul>
+</div>
+
+<div id="lightspeed" class="tabcontent">
+<h3 style="color: black;">Lightspeed Proxies</h3>
+</ul>
+<li><a href="https://didyoujustenter.space/">Rammerhead</a></li>
+<li><a href="https://polarislearning.org/view">Fowntain's Proxy</a></li>
+<li><a href="https://derickisnothim.redpill.ml/">Rammerhead 2</a></li>
+<li><a href="https://remember-xgames-real.netlify.app/">AndroMeda</a></li>
+<li><a href="http://order.fastservices.buzz/">TinF0il</a></li>
+<li><a href="https://learnreligionat.tomahawkchurch.org/">Shadow Browser</a></li>
+<li><a href="http://lsna.ocps.net:8443/login">Lightspeed Acess</a></li>
+</ul>
+</div>
+
+<div id="games" class="tabcontent">
+<h3 style="color: black;">Games</h3>
+<p>Content for Games goes here.</p>
+</div>
+
+<div id="winexploits" class="tabcontent">
+<h3 style="color: black;">Windows Exploits</h3>
+<p>Content for Windows Exploits goes here.</p>
+</div>
+
+<div id="chromeexploits" class="tabcontent">
+<h3 style="color: black;">Chromebook Exploits</h3>
+<p>Content for Chromebook Exploits goes here.</p>
+</div>
+
+<div id="extras" class="tabcontent">
+<h3 style="color: black;">Extras</h3>
+<p>Content for Extras goes here.</p>
+</div>
+
+<div id="dailynews" class="tabcontent">
+<h3 style="color: black;">Daily News</h3>
+<p>Content for Daily News goes here.</p>
+</div>
+
+<div id="footer">Site made by JetFuel</div>
+
+<script>
+// JavaScript to toggle between tabs
+function openTab(evt, tabName) {
+var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+tabcontent[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablinks");
+for (i = 0; i < tablinks.length; i++) {
+tablinks[i].className = tablinks[i].className.replace(" active", "");
+}
+document.getElementById(tabName).style.display = "block";
+evt.currentTarget.className += " active";
+}
+
+// Trigger the tab switching function to open the "Daily News" tab
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("dailynewsTab").click();
+});
+</script>
+</body>
+</html>
